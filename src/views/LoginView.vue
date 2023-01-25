@@ -7,7 +7,7 @@
     <div class="card">
       <div class="card-body login-card-body">
         <p class="login-box-msg">Silakan Login untuk memulai sesi</p>
-        <form action="../../index3.html" method="post">
+        <form action="/login" method="post" @submit.prevent="loginSubmit()">
           <div class="input-group mb-3">
             <input type="email" class="form-control" placeholder="Email" />
             <div class="input-group-append">
